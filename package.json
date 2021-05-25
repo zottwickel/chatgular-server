@@ -1,0 +1,17 @@
+{
+  "name": "chatgular",
+  "version": "0.0.0",
+  "description": "A Node.js server for working with Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.13",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.0"
+  }
+}
